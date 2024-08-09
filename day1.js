@@ -1,13 +1,14 @@
-//DAY 1: CREATE HELLO WORLD FUNCTION
+// DAY 1: CREATE HELLO WORLD FUNCTION
 // Write a function createHelloWorld. It should return a new function 
-//that always returns "Hello World".
+// that always returns "Hello World".
 
 /**
  * @return {Function}
  */
-//the file return type is function
+// the file return type is function
 
 // *** INITIAL SIMPLE ANSWER ***
+
 // const createHelloWorld = function(){
 //     return function(...args){
 //         return "Hello World!";
@@ -32,7 +33,7 @@ const createHelloWorld = function(){
 const a = createHelloWorld();
 
 console.log(a);
-//*CLOSURES*: Functions in JavaScript have access to variables outside of their scope.
+// *CLOSURES*: Functions in JavaScript have access to variables outside of their scope.
 
 
 
